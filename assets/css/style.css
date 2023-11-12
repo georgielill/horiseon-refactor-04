@@ -47,10 +47,6 @@ a {
     text-decoration: none;
 }
 
-p {
-    font-size: 16px;
-}
-
 .hero {
     height: 800px;
     width: 100%;
@@ -58,6 +54,10 @@ p {
     background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
+}
+
+p {
+    font-size: 16px;
 }
 
 .float-left {
@@ -70,7 +70,8 @@ p {
     margin-left: 25px;
 }
 
-.content {
+/* Displays the left articles as equal widths and heights */
+article {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
