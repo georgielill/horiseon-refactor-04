@@ -109,8 +109,8 @@ h3 {
     text-align: center;
 }
 
-.benefits-image {
-    display: block;
+.benefits-image { 
+    display: block; 
     margin: 10px auto;
     max-width: 150px;
 }
